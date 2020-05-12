@@ -1,0 +1,26 @@
+body {
+    background-color: #f4eeff;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    width: 12%;
+}
+
+main {
+    width: 40%;
+    margin: 8% calc(60% / 2);
+    font-family: 'DM Mono', monospace;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10%;
+}
+
+.date {
+    font-weight: 600;
+    letter-spacing: 0.5em;
+    margin:8% auto;
+}

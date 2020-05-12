@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stray Singularity</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>{ Stray Singularity }</h1>
+    </header>
+    <main>
+        <article>
+            {{ range.Pages }}
+                <div class="date">{{ .Date.Format "Mon Jan 2 2006" }}</div>
+                {{ .Content }}
+                <hr>
+            {{ end }}
+        </article>
+    </main>
+    <footer>
+        <h3>Stray Singularity 2020</h3>
+    </footer>
+</body>
+</body>
+</html>
