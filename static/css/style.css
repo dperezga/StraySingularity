@@ -8,8 +8,8 @@ header h1 {
 }
 
 main {
-    width: 40%;
-    margin: 8% calc(60% / 2);
+    width: 60%;
+    margin: 8% calc(40% / 2);
     font-family: 'DM Mono', monospace;
 }
 
